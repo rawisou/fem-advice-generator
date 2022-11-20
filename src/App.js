@@ -15,13 +15,15 @@ const App = () => {
   return (
     <>
       <main>
-        <section className="wrapper">
+        <div className="wrapper">
           <div className="advice">
             <p>Advice no.# {advice.id}</p>
             <p>{advice.advice}</p>
-            <img src="./images/icon-dice.svg" alt="button"/>
+            <div className="dice-round">
+              <img src="./images/icon-dice.svg" alt="button"/>
+            </div>
           </div>
-        </section>
+        </div>
       </main>
       <footer>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
