@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;800&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: #212632;
+  color: #c0d3dd;
+  font-family: 'Manrope', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
@@ -22,21 +24,32 @@ main {
 }
 
 .wrapper {
-  border: 2px solid black;
   max-width: 350px;
 }
 
 .advice {
+  border-radius: 10px;
   padding: 20px;
+  border: 50px;
+  background-color: #303A49;
+  font-weight: 800;
+  position: relative;
 }
 
 p:first-child {
   color: #54FCA9;
+  font-weight: 600;
 }
 
 .dice-round {
+  position: absolute;
   width: 50px;
   height: 50px;
   border-radius: 50%;
   background-color:#54FCA9;
+}
+
+.dice-round img {
+  margin-top: 15px;
+  width: 20px;
 }
